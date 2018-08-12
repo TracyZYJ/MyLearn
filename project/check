@@ -14,4 +14,7 @@ echo
 echo -en "\t\t输入选项："                  
 read -n 1 ans
 echo -e "\n你的选择是 ${ans}"   
+
+
+  
 ~     

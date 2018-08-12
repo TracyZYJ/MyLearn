@@ -1,0 +1,17 @@
+#!/bin/bash
+
+#打印菜单
+#ver：1.0
+echo -e "\t\t\t***系统管理工具***"         #三个\t相当于3个制表符（Tab键）
+echo
+echo
+echo -e "\t1.\t显示磁盘空间信息"           #打印这句话，并在相应位置输入Tab键
+echo -e "\t2.\t显示网络接口信息"
+echo -e "\t3.\t显示内存使用信息"
+echo -e "\t0.\t退出菜单"
+echo
+echo
+echo -en "\t\t输入选项："                  
+read -n 1 ans
+echo -e "\n你的选择是 ${ans}"   
+~     
